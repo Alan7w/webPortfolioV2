@@ -1,0 +1,295 @@
+import { LOCALES, type Locale, type LString } from "./schema";
+
+export function isLocale(value: string): value is Locale {
+  return (LOCALES as readonly string[]).includes(value);
+}
+
+/** Resolve a localized string, falling back to English, then to any available translation. */
+export function t(value: LString | undefined, locale: Locale): string {
+  if (!value) return "";
+  const direct = value[locale]?.trim();
+  if (direct) return value[locale] as string;
+  if (value.en?.trim()) return value.en;
+  for (const l of LOCALES) if (value[l]?.trim()) return value[l] as string;
+  return "";
+}
+
+export function hasText(value: LString | undefined, locale?: Locale): boolean {
+  if (!value) return false;
+  if (locale) return Boolean(value[locale]?.trim());
+  return LOCALES.some((l) => Boolean(value[l]?.trim()));
+}
+
+/** Interface strings for the public site and résumé. Content strings live in portfolio.json. */
+const en = {
+  skipToContent: "Skip to content",
+  resume: "Résumé",
+  downloadPdf: "Download PDF",
+  printPdf: "Print / Save as PDF",
+  contact: "Contact",
+  getInTouch: "Let’s build something together.",
+  getInTouchSub: "Have a role, a project or a question? I’d love to hear from you.",
+  search: "Search",
+  arcade: "Insert coin (arcade mode)",
+  copyEmail: "Copy email",
+  copied: "Copied!",
+  saveContact: "Save contact card",
+  viewProject: "View project",
+  preview: "Preview",
+  present: "Present",
+  live: "Live demo",
+  code: "Source code",
+  video: "Video",
+  article: "Article",
+  download: "Download",
+  link: "Link",
+  caseStudy: "Read the case study",
+  all: "All",
+  featured: "Featured",
+  usedIn: "Used in",
+  whereUsed: "Where I’ve used",
+  places: (n: number) => (n === 1 ? "1 place" : `${n} places`),
+  lastUpdated: "Last updated",
+  builtWith: "Built and edited with my own Portfolio Studio",
+  theme: "Theme",
+  light: "Light",
+  dark: "Dark",
+  system: "System",
+  language: "Language",
+  backToPortfolio: "Back to portfolio",
+  paper: "Paper",
+  photo: "Photo",
+  qr: "QR code",
+  fitsOnePage: "Fits on one page",
+  pages: (n: string) => `≈ ${n} pages — trim to fit one`,
+  variant: "Version",
+  standard: "Standard",
+  scanToView: "Scan to view the full portfolio",
+  achievement: "Achievement unlocked",
+  secretFound: "Secret level found — arcade mode on. Enter the code again to exit.",
+  secretLeft: "Back to the real world.",
+  yr: (n: number) => (n === 1 ? "1 yr" : `${n} yrs`),
+  mo: (n: number) => (n === 1 ? "1 mo" : `${n} mos`),
+  menu: "Menu",
+  close: "Close",
+  commandHint: "Type a command or search…",
+  noMatches: "No matches",
+  goTo: "Go to",
+  actions: "Actions",
+  switchLanguage: "Switch language",
+  toggleTheme: "Toggle light / dark",
+  openResume: "Open résumé",
+  notFoundTitle: "This level doesn’t exist (yet).",
+  notFoundBody: "The page you’re looking for moved or never spawned.",
+  home: "Home",
+  details: "Details",
+  links: "Links",
+  skills: "Skills",
+  more: (n: number) => `+${n} more`,
+  pressKey: "Press",
+  toSearch: "to search",
+};
+
+type Dictionary = typeof en;
+
+const uz: Dictionary = {
+  skipToContent: "Asosiy qismga o‘tish",
+  resume: "Rezyume",
+  downloadPdf: "PDF yuklab olish",
+  printPdf: "Chop etish / PDF sifatida saqlash",
+  contact: "Aloqa",
+  getInTouch: "Keling, birgalikda nimadir yaratamiz.",
+  getInTouchSub: "Vakansiya, loyiha yoki savolingiz bormi? Siz bilan bog‘lanishdan xursand bo‘laman.",
+  search: "Qidirish",
+  arcade: "Tanga tashlash (arcade rejimi)",
+  copyEmail: "Emailni nusxalash",
+  copied: "Nusxalandi!",
+  saveContact: "Kontaktni saqlash",
+  viewProject: "Loyihani ko‘rish",
+  preview: "Ko‘rib chiqish",
+  present: "hozirgacha",
+  live: "Jonli demo",
+  code: "Manba kodi",
+  video: "Video",
+  article: "Maqola",
+  download: "Yuklab olish",
+  link: "Havola",
+  caseStudy: "Batafsil o‘qish",
+  all: "Barchasi",
+  featured: "Tanlangan",
+  usedIn: "Qo‘llanilgan",
+  whereUsed: "Qayerda qo‘llaganman:",
+  places: (n: number) => `${n} ta joyda`,
+  lastUpdated: "Oxirgi yangilanish",
+  builtWith: "O‘zim yaratgan Portfolio Studio’da tayyorlangan",
+  theme: "Mavzu",
+  light: "Yorug‘",
+  dark: "Qorong‘i",
+  system: "Tizim",
+  language: "Til",
+  backToPortfolio: "Portfolioga qaytish",
+  paper: "Qog‘oz",
+  photo: "Rasm",
+  qr: "QR kod",
+  fitsOnePage: "Bir sahifaga sig‘adi",
+  pages: (n: string) => `≈ ${n} sahifa — bir sahifaga qisqartiring`,
+  variant: "Versiya",
+  standard: "Asosiy",
+  scanToView: "To‘liq portfolioni ko‘rish uchun skanerlang",
+  achievement: "Yutuq qo‘lga kiritildi",
+  secretFound: "Maxfiy daraja topildi — arcade rejimi yoqildi. Chiqish uchun kodni qayta kiriting.",
+  secretLeft: "Haqiqiy dunyoga qaytdik.",
+  yr: (n: number) => `${n} yil`,
+  mo: (n: number) => `${n} oy`,
+  menu: "Menyu",
+  close: "Yopish",
+  commandHint: "Buyruq yoki qidiruv…",
+  noMatches: "Hech narsa topilmadi",
+  goTo: "O‘tish",
+  actions: "Amallar",
+  switchLanguage: "Tilni almashtirish",
+  toggleTheme: "Yorug‘ / qorong‘i rejim",
+  openResume: "Rezyumeni ochish",
+  notFoundTitle: "Bu daraja hali mavjud emas.",
+  notFoundBody: "Siz qidirayotgan sahifa ko‘chirilgan yoki umuman yaratilmagan.",
+  home: "Bosh sahifa",
+  details: "Tafsilotlar",
+  links: "Havolalar",
+  skills: "Ko‘nikmalar",
+  more: (n: number) => `yana ${n} ta`,
+  pressKey: "Qidirish uchun",
+  toSearch: "ni bosing",
+};
+
+function ruPlural(n: number, one: string, few: string, many: string) {
+  const mod10 = n % 10;
+  const mod100 = n % 100;
+  if (mod10 === 1 && mod100 !== 11) return one;
+  if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return few;
+  return many;
+}
+
+const ru: Dictionary = {
+  skipToContent: "Перейти к содержанию",
+  resume: "Резюме",
+  downloadPdf: "Скачать PDF",
+  printPdf: "Печать / Сохранить как PDF",
+  contact: "Контакты",
+  getInTouch: "Давайте создадим что-то вместе.",
+  getInTouchSub: "Есть вакансия, проект или вопрос? Буду рад пообщаться.",
+  search: "Поиск",
+  arcade: "Бросить монетку (аркадный режим)",
+  copyEmail: "Скопировать email",
+  copied: "Скопировано!",
+  saveContact: "Сохранить контакт",
+  viewProject: "Открыть проект",
+  preview: "Предпросмотр",
+  present: "по настоящее время",
+  live: "Демо",
+  code: "Исходный код",
+  video: "Видео",
+  article: "Статья",
+  download: "Скачать",
+  link: "Ссылка",
+  caseStudy: "Читать подробнее",
+  all: "Все",
+  featured: "Избранное",
+  usedIn: "Использовалось в",
+  whereUsed: "Где я применял",
+  places: (n: number) => `${n} ${ruPlural(n, "месте", "местах", "местах")}`,
+  lastUpdated: "Обновлено",
+  builtWith: "Создано и редактируется в моей собственной Portfolio Studio",
+  theme: "Тема",
+  light: "Светлая",
+  dark: "Тёмная",
+  system: "Системная",
+  language: "Язык",
+  backToPortfolio: "Назад к портфолио",
+  paper: "Бумага",
+  photo: "Фото",
+  qr: "QR-код",
+  fitsOnePage: "Помещается на одной странице",
+  pages: (n: string) => `≈ ${n} стр. — сократите до одной`,
+  variant: "Версия",
+  standard: "Основная",
+  scanToView: "Отсканируйте, чтобы открыть портфолио",
+  achievement: "Достижение получено",
+  secretFound: "Найден секретный уровень — включён аркадный режим. Введите код ещё раз, чтобы выйти.",
+  secretLeft: "Возвращаемся в реальный мир.",
+  yr: (n: number) => `${n} ${ruPlural(n, "год", "года", "лет")}`,
+  mo: (n: number) => `${n} мес.`,
+  menu: "Меню",
+  close: "Закрыть",
+  commandHint: "Введите команду или запрос…",
+  noMatches: "Ничего не найдено",
+  goTo: "Перейти",
+  actions: "Действия",
+  switchLanguage: "Сменить язык",
+  toggleTheme: "Светлая / тёмная тема",
+  openResume: "Открыть резюме",
+  notFoundTitle: "Этого уровня пока не существует.",
+  notFoundBody: "Страница, которую вы ищете, перемещена или никогда не существовала.",
+  home: "Главная",
+  details: "Подробности",
+  links: "Ссылки",
+  skills: "Навыки",
+  more: (n: number) => `ещё ${n}`,
+  pressKey: "Нажмите",
+  toSearch: "для поиска",
+};
+
+export const UI: Record<Locale, Dictionary> = { en, uz, ru };
+export type UIStrings = Dictionary;
+
+/** Default section titles per kind, used when creating new sections and as a résumé fallback. */
+export const DEFAULT_SECTION_TITLES: Record<string, LString> = {
+  experience: { en: "Experience", uz: "Ish tajribasi", ru: "Опыт работы" },
+  education: { en: "Education", uz: "Ta’lim", ru: "Образование" },
+  projects: { en: "Projects", uz: "Loyihalar", ru: "Проекты" },
+  skills: { en: "Skills", uz: "Ko‘nikmalar", ru: "Навыки" },
+  awards: { en: "Honors & Certifications", uz: "Mukofotlar va sertifikatlar", ru: "Награды и сертификаты" },
+  languages: { en: "Languages", uz: "Tillar", ru: "Языки" },
+  text: { en: "About", uz: "Men haqimda", ru: "Обо мне" },
+  timeline: { en: "Journey", uz: "Hayot yo‘lim", ru: "Мой путь" },
+  custom: { en: "More", uz: "Qo‘shimcha", ru: "Дополнительно" },
+  volunteering: { en: "Volunteering", uz: "Ko‘ngillilik", ru: "Волонтёрство" },
+  leadership: { en: "Leadership & Community", uz: "Yetakchilik va jamoatchilik", ru: "Лидерство и сообщество" },
+  publications: { en: "Publications", uz: "Nashrlar", ru: "Публикации" },
+  talks: { en: "Talks", uz: "Chiqishlar", ru: "Выступления" },
+};
+
+/** Translations for common values of the free-form `type` field. Unknown values are shown as typed. */
+const TYPE_LABELS: Record<string, LString> = {
+  "full-time": { en: "Full-time", uz: "To‘liq stavka", ru: "Полная занятость" },
+  "part-time": { en: "Part-time", uz: "Yarim stavka", ru: "Частичная занятость" },
+  internship: { en: "Internship", uz: "Amaliyot", ru: "Стажировка" },
+  contract: { en: "Contract", uz: "Shartnoma", ru: "Контракт" },
+  freelance: { en: "Freelance", uz: "Frilans", ru: "Фриланс" },
+  teaching: { en: "Teaching", uz: "O‘qitish", ru: "Преподавание" },
+  volunteer: { en: "Volunteer", uz: "Ko‘ngilli", ru: "Волонтёрство" },
+  leadership: { en: "Leadership", uz: "Yetakchilik", ru: "Лидерство" },
+  seasonal: { en: "Seasonal", uz: "Mavsumiy", ru: "Сезонная работа" },
+  hackathon: { en: "Hackathon", uz: "Xakaton", ru: "Хакатон" },
+  web: { en: "Web", uz: "Veb", ru: "Веб" },
+  game: { en: "Game", uz: "O‘yin", ru: "Игра" },
+  games: { en: "Games", uz: "O‘yinlar", ru: "Игры" },
+  systems: { en: "Systems", uz: "Tizimlar", ru: "Системы" },
+  mobile: { en: "Mobile", uz: "Mobil", ru: "Мобильные" },
+  tool: { en: "Tool", uz: "Vosita", ru: "Инструмент" },
+  research: { en: "Research", uz: "Tadqiqot", ru: "Исследование" },
+  coursework: { en: "Coursework", uz: "O‘quv loyihasi", ru: "Учебный проект" },
+  learning: { en: "Learning", uz: "O‘rganish", ru: "Обучение" },
+  "open source": { en: "Open source", uz: "Ochiq kod", ru: "Open source" },
+  award: { en: "Award", uz: "Mukofot", ru: "Награда" },
+  scholarship: { en: "Scholarship", uz: "Stipendiya", ru: "Стипендия" },
+  certification: { en: "Certification", uz: "Sertifikat", ru: "Сертификат" },
+  honor: { en: "Honor", uz: "Faxriy unvon", ru: "Почётное отличие" },
+  competition: { en: "Competition", uz: "Musobaqa", ru: "Соревнование" },
+  course: { en: "Course", uz: "Kurs", ru: "Курс" },
+};
+
+export function typeLabel(type: string, locale: Locale): string {
+  if (!type) return "";
+  const known = TYPE_LABELS[type.trim().toLowerCase()];
+  return known ? t(known, locale) : type;
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "contacts": [
+    {
+      "id": "pc-phone",
+      "kind": "phone",
+      "label": { "en": "Phone", "uz": "Telefon", "ru": "Телефон" },
+      "value": "+998 90 000 00 00",
+      "url": "",
+      "onSite": false,
+      "onResume": true
+    }
+  ],
+  "notes": {},
+  "review": [
+    {
+      "id": "r-example",
+      "title": "Example review item",
+      "detail": "The Coach shows these next to its automatic checks. Resolve or dismiss them in the Studio.",
+      "targetId": "profile",
+      "severity": "info",
+      "status": "open",
+      "source": "Template"
+    }
+  ],
+  "obyektivka": {
+    "script": "cyrl",
+    "photo": "",
+    "fullName": "Фамилия Исм Отасининг исми",
+    "currentPositionDate": "2026 йил 1 январдан",
+    "currentPosition": "Ташкилот номи, лавозим",
+    "birthDate": "01.01.2000",
+    "birthPlace": "Вилоят, туман",
+    "nationality": "ўзбек",
+    "party": "йўқ",
+    "education": "олий",
+    "graduated": "2025 йил, Университет номи",
+    "specialty": "Мутахассислик",
+    "degree": "йўқ",
+    "academicTitle": "йўқ",
+    "languages": "инглиз тили",
+    "stateAwards": "тақдирланмаган",
+    "electedBodies": "йўқ",
+    "extra": [],
+    "work": [{ "id": "w1", "period": "2022–2025 йй.", "text": "Университет талабаси" }],
+    "relativesTitle": "Фамилия Исм Отасининг исмининг яқин қариндошлари ҳақида МАЪЛУМОТ",
+    "relatives": [
+      { "id": "rel1", "relation": "Онаси", "fullName": "Фамилия Исм Отасининг исми", "birth": "1970 йил, вилоят", "work": "Иш жойи ва лавозими", "address": "Турар жойи" }
+    ]
+  }
+}

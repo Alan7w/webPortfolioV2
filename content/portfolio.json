@@ -1,0 +1,1955 @@
+{
+  "$schema": "./portfolio.schema.json",
+  "meta": {
+    "schemaVersion": 1,
+    "updatedAt": "2026-09-27T11:14:50.040Z"
+  },
+  "profile": {
+    "name": {
+      "en": "Asadkhon Rasulov",
+      "uz": "Asadxon Rasulov",
+      "ru": "Асадхон Расулов"
+    },
+    "headline": {
+      "en": "Software Engineer & Game Developer",
+      "uz": "Dasturiy ta’minot muhandisi va o‘yin dasturchisi",
+      "ru": "Инженер-программист и разработчик игр"
+    },
+    "summary": {
+      "en": "Computer Science graduate from the University of Arizona with a minor in Game Design & Development. I build web apps and games, and over two years as a teaching assistant taught me to explain complex systems — from MIPS assembly to calculus — clearly and patiently.",
+      "uz": "Arizona universitetining Kompyuter fanlari yo‘nalishi bitiruvchisiman, qo‘shimcha mutaxassisligim — o‘yin dizayni va ishlab chiqish. Veb-ilovalar va o‘yinlar yarataman. Ikki yildan ortiq o‘qituvchi assistenti bo‘lib ishlaganim menga murakkab tizimlarni — MIPS assemblerdan tortib matematik analizgacha — aniq va sabr bilan tushuntirishni o‘rgatdi.",
+      "ru": "Выпускник Университета Аризоны по специальности «Компьютерные науки» с дополнительной специализацией в геймдизайне и разработке игр. Создаю веб-приложения и игры, а более двух лет работы ассистентом преподавателя научили меня ясно и терпеливо объяснять сложные системы — от ассемблера MIPS до математического анализа."
+    },
+    "location": {
+      "en": "Uzbekistan",
+      "uz": "O‘zbekiston",
+      "ru": "Узбекистан"
+    },
+    "avatar": "/uploads/portrait.jpg",
+    "avatarAlt": {
+      "en": "Portrait of Asadkhon Rasulov",
+      "uz": "Asadxon Rasulov portreti",
+      "ru": "Портрет Асадхона Расулова"
+    },
+    "status": {
+      "enabled": true,
+      "text": {
+        "en": "Open to software & game development roles",
+        "uz": "Dasturlash va o‘yin ishlab chiqish bo‘yicha takliflarga ochiqman",
+        "ru": "Открыт к предложениям в разработке ПО и игр"
+      }
+    },
+    "contacts": [
+      {
+        "id": "c-email",
+        "kind": "email",
+        "label": {
+          "en": "Email",
+          "uz": "Email",
+          "ru": "Email"
+        },
+        "value": "armain319@gmail.com",
+        "url": "",
+        "onSite": true,
+        "onResume": true
+      },
+      {
+        "id": "c-github",
+        "kind": "github",
+        "label": {
+          "en": "GitHub"
+        },
+        "value": "github.com/Alan7w",
+        "url": "https://github.com/Alan7w",
+        "onSite": true,
+        "onResume": true
+      },
+      {
+        "id": "c-telegram",
+        "kind": "telegram",
+        "label": {
+          "en": "Telegram"
+        },
+        "value": "@ras1x7",
+        "url": "",
+        "onSite": true,
+        "onResume": true
+      },
+      {
+        "id": "c-itch",
+        "kind": "itch",
+        "label": {
+          "en": "Games",
+          "uz": "O‘yinlar",
+          "ru": "Игры"
+        },
+        "value": "defenders-group8.itch.io",
+        "url": "https://defenders-group8.itch.io/",
+        "onSite": true,
+        "onResume": false
+      }
+    ],
+    "highlights": [
+      {
+        "id": "h-gpa",
+        "value": {
+          "en": "3.77"
+        },
+        "label": {
+          "en": "GPA · B.A. Computer Science",
+          "uz": "GPA · Kompyuter fanlari bakalavri",
+          "ru": "GPA · бакалавр компьютерных наук"
+        }
+      },
+      {
+        "id": "h-teaching",
+        "value": {
+          "en": "2+ yrs",
+          "uz": "2+ yil",
+          "ru": "2+ года"
+        },
+        "label": {
+          "en": "Teaching CS & math at the University of Arizona",
+          "uz": "Arizona universitetida informatika va matematikadan assistentlik",
+          "ru": "преподавания CS и математики в Университете Аризоны"
+        }
+      },
+      {
+        "id": "h-games",
+        "value": {
+          "en": "2"
+        },
+        "label": {
+          "en": "Team games released on itch.io",
+          "uz": "itch.io’da chiqarilgan jamoaviy o‘yinlar",
+          "ru": "командные игры, выпущенные на itch.io"
+        }
+      },
+      {
+        "id": "h-projects",
+        "value": {
+          "en": "10+"
+        },
+        "label": {
+          "en": "Web, systems & game projects",
+          "uz": "Veb, tizimli va o‘yin loyihalari",
+          "ru": "веб-, системных и игровых проектов"
+        }
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "sec-skills",
+      "kind": "skills",
+      "title": {
+        "en": "Skills",
+        "uz": "Ko‘nikmalar",
+        "ru": "Навыки"
+      },
+      "intro": {
+        "en": "Tap a skill to see where I’ve used it.",
+        "uz": "Qayerda qo‘llaganimni ko‘rish uchun ko‘nikmani bosing.",
+        "ru": "Нажмите на навык, чтобы увидеть, где я его применял."
+      },
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "sk-languages",
+          "title": {
+            "en": "Programming languages",
+            "uz": "Dasturlash tillari",
+            "ru": "Языки программирования"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Python",
+            "Java",
+            "C",
+            "C#",
+            "JavaScript",
+            "TypeScript",
+            "HTML",
+            "CSS",
+            "Bash",
+            "MIPS Assembly"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "sk-web",
+          "title": {
+            "en": "Web & frameworks",
+            "uz": "Veb va frameworklar",
+            "ru": "Веб и фреймворки"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "React",
+            "Next.js",
+            "Tailwind CSS",
+            "Node.js",
+            "REST APIs",
+            "JavaFX",
+            "Accessibility"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "sk-games",
+          "title": {
+            "en": "Game development",
+            "uz": "O‘yin ishlab chiqish",
+            "ru": "Разработка игр"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Unity",
+            "Blender",
+            "Game Design",
+            "Pixel Art",
+            "Gamification"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "sk-cs",
+          "title": {
+            "en": "CS foundations",
+            "uz": "Informatika asoslari",
+            "ru": "Основы Computer Science"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Data Structures & Algorithms",
+            "Computer Architecture",
+            "Systems Programming",
+            "Compilers",
+            "Object-Oriented Programming"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "sk-tools",
+          "title": {
+            "en": "Tools & platforms",
+            "uz": "Vositalar va platformalar",
+            "ru": "Инструменты и платформы"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Git",
+            "GitHub",
+            "Linux / Unix",
+            "VS Code",
+            "Google Workspace",
+            "Microsoft Office"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "sk-people",
+          "title": {
+            "en": "Teaching & leadership",
+            "uz": "O‘qitish va yetakchilik",
+            "ru": "Преподавание и лидерство"
+          },
+          "subtitle": {},
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Teaching",
+            "Mentoring",
+            "Tutoring",
+            "Leadership",
+            "Project Management",
+            "Event Organization",
+            "Research"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        }
+      ]
+    },
+    {
+      "id": "sec-projects",
+      "kind": "projects",
+      "title": {
+        "en": "Projects",
+        "uz": "Loyihalar",
+        "ru": "Проекты"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "proj-portfolio-studio",
+          "title": {
+            "en": "Portfolio Studio"
+          },
+          "subtitle": {
+            "en": "Personal project · Next.js",
+            "uz": "Shaxsiy loyiha · Next.js",
+            "ru": "Личный проект · Next.js"
+          },
+          "url": "",
+          "location": {},
+          "start": "2026-09",
+          "end": "present",
+          "type": "Web",
+          "summary": {
+            "en": "This site. A trilingual portfolio and résumé builder: edit everything in a live-preview studio, publish through Git, and generate a print-ready résumé and Obyektivka from the same data.",
+            "uz": "Aynan shu sayt. Uch tilli portfolio va rezyume konstruktori: hamma narsani jonli ko‘rinishli studiyada tahrirlang, Git orqali e’lon qiling va bir xil ma’lumotlardan chop etishga tayyor rezyume hamda obyektivka yarating.",
+            "ru": "Этот сайт. Трёхъязычный конструктор портфолио и резюме: всё редактируется в студии с живым превью, публикуется через Git, а из тех же данных генерируются готовые к печати резюме и объективка."
+          },
+          "body": {
+            "en": "## Why\nMy résumé and my Obyektivka kept drifting apart — different dates, missing awards, dead links. Every update meant editing several documents in two alphabets. I wanted **one source of truth** that could produce all of them.\n\n## How it works\n- **Content as data.** Everything lives in `content/portfolio.json`, validated by a Zod schema. Any text field can carry English, Uzbek and Russian.\n- **Studio.** A local editor with live preview, undo/redo, drag-and-drop ordering and autosave.\n- **Git as the database.** Publishing is a commit; the host redeploys. Every change is versioned and can be restored from the Studio’s history.\n- **Many outputs.** The same data renders this website, a one-page résumé and an Obyektivka — each print-ready.\n- **Coach.** Lints the content like code: weak verbs, missing numbers, outdated dates, broken links, missing translations.\n\n## What I learned\nDesigning the schema first made every later feature cheaper — variants, the journey timeline and the skill-evidence links are all *derived* from the same data instead of being typed twice."
+          },
+          "bullets": [
+            {
+              "id": "proj-portfolio-studio-b1",
+              "text": {
+                "en": "Schema-driven content model (Zod) where every text field can be translated into English, Uzbek and Russian",
+                "uz": "Har bir matn maydonini ingliz, o‘zbek va rus tillariga tarjima qilish mumkin bo‘lgan sxemaga asoslangan kontent modeli (Zod)",
+                "ru": "Контентная модель на основе схемы (Zod), где любое текстовое поле можно перевести на английский, узбекский и русский"
+              }
+            },
+            {
+              "id": "proj-portfolio-studio-b2",
+              "text": {
+                "en": "Built-in résumé coach that flags weak verbs, missing metrics, stale dates, broken links and untranslated text",
+                "uz": "Kuchsiz fe’llar, raqamlar yetishmasligi, eskirgan sanalar, ishlamaydigan havolalar va tarjima qilinmagan matnlarni aniqlaydigan rezyume maslahatchisi",
+                "ru": "Встроенный помощник по резюме: находит слабые глаголы, отсутствие метрик, устаревшие даты, битые ссылки и непереведённый текст"
+              }
+            },
+            {
+              "id": "proj-portfolio-studio-b3",
+              "text": {
+                "en": "Private, git-ignored vault keeps Obyektivka personal data off the public site",
+                "uz": "Obyektivka uchun shaxsiy ma’lumotlar git’ga tushmaydigan maxfiy xotirada saqlanadi va ommaviy saytga chiqmaydi",
+                "ru": "Личные данные для объективки хранятся в приватном хранилище, исключённом из git, и не попадают на публичный сайт"
+              }
+            }
+          ],
+          "tags": [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Zod"
+          ],
+          "links": [
+            {
+              "id": "proj-portfolio-studio-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/webPortfolioV2",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "/uploads/portfolio-studio.jpg",
+          "imageAlt": {
+            "en": "Portfolio Studio: editing the profile with a live preview of the site",
+            "uz": "Portfolio Studio: sayt jonli ko‘rinishi bilan profilni tahrirlash",
+            "ru": "Portfolio Studio: редактирование профиля с живым превью сайта"
+          },
+          "featured": true,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "proj-shroomhold",
+          "title": {
+            "en": "Shroomhold Siege"
+          },
+          "subtitle": {
+            "en": "Team game · Defenders (Group 8)",
+            "uz": "Jamoaviy o‘yin · Defenders (8-guruh)",
+            "ru": "Командная игра · Defenders (группа 8)"
+          },
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "Game",
+          "summary": {
+            "en": "A single-player 3D tower-defense and action game: farm mushrooms, build and upgrade towers, and hold the castle gate against waves of enemies for five days and nights.",
+            "uz": "Bir kishilik 3D “tower defense” va jangovar o‘yin: qo‘ziqorin yetishtiring, minoralar quring va kuchaytiring hamda qal’a darvozasini dushman to‘lqinlaridan besh kecha-kunduz himoya qiling.",
+            "ru": "Однопользовательская 3D-игра в жанре tower defense с элементами экшена: выращивайте грибы, стройте и улучшайте башни и защищайте ворота замка от волн врагов пять дней и ночей."
+          },
+          "body": {},
+          "bullets": [
+            {
+              "id": "proj-shroomhold-b1",
+              "text": {
+                "en": "Economy loop: harvest mushrooms, sell them for coins, and reinvest in farm upgrades and tower damage",
+                "uz": "Iqtisodiy sikl: qo‘ziqorin yig‘ish, ularni tangaga sotish va ferma hamda minoralar kuchini oshirishga sarflash",
+                "ru": "Экономический цикл: собирайте грибы, продавайте их за монеты и вкладывайте в улучшение фермы и урона башен"
+              }
+            },
+            {
+              "id": "proj-shroomhold-b2",
+              "text": {
+                "en": "First-person controls with sprinting, jumping and shooting; released for Windows, macOS and Linux",
+                "uz": "Birinchi shaxs boshqaruvi: yugurish, sakrash va otish; Windows, macOS va Linux uchun chiqarilgan",
+                "ru": "Управление от первого лица: бег, прыжки и стрельба; выпущена для Windows, macOS и Linux"
+              }
+            }
+          ],
+          "tags": [
+            "Unity",
+            "C#",
+            "Blender",
+            "Game Design"
+          ],
+          "links": [
+            {
+              "id": "proj-shroomhold-l1",
+              "label": {
+                "en": "Play on itch.io",
+                "uz": "itch.io’da o‘ynash",
+                "ru": "Играть на itch.io"
+              },
+              "url": "https://defenders-group8.itch.io/shroomhold-siege",
+              "kind": "live"
+            }
+          ],
+          "facts": [
+            {
+              "id": "proj-shroomhold-f1",
+              "label": {
+                "en": "Genre",
+                "uz": "Janr",
+                "ru": "Жанр"
+              },
+              "value": {
+                "en": "Tower defense · FPS",
+                "uz": "Tower defense · FPS",
+                "ru": "Tower defense · шутер от первого лица"
+              }
+            },
+            {
+              "id": "proj-shroomhold-f2",
+              "label": {
+                "en": "Platforms",
+                "uz": "Platformalar",
+                "ru": "Платформы"
+              },
+              "value": {
+                "en": "Windows · macOS · Linux"
+              }
+            }
+          ],
+          "image": "/uploads/shroomhold-siege.jpg",
+          "imageAlt": {
+            "en": "Shroomhold Siege gameplay screenshot",
+            "uz": "Shroomhold Siege o‘yinidan skrinshot",
+            "ru": "Скриншот игры Shroomhold Siege"
+          },
+          "featured": true,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "proj-solar-strikers",
+          "title": {
+            "en": "Solar Strikers"
+          },
+          "subtitle": {
+            "en": "Team game · Defenders (Group 8)",
+            "uz": "Jamoaviy o‘yin · Defenders (8-guruh)",
+            "ru": "Командная игра · Defenders (группа 8)"
+          },
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "Game",
+          "summary": {
+            "en": "A 2D top-down bullet-hell shooter in pixel art: pilot the Solar Striker starship and defend a human colony from the Krylox alien invasion.",
+            "uz": "Piksel-art uslubidagi 2D “bullet hell” shuter: Solar Striker kosmik kemasini boshqaring va insonlar koloniyasini Krylox o‘zga sayyoraliklari bosqinidan himoya qiling.",
+            "ru": "2D-шутер в жанре bullet hell с видом сверху и пиксель-артом: управляйте кораблём Solar Striker и защитите колонию людей от вторжения пришельцев Krylox."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Unity",
+            "C#",
+            "Game Design",
+            "Pixel Art"
+          ],
+          "links": [
+            {
+              "id": "proj-solar-strikers-l1",
+              "label": {
+                "en": "Play on itch.io",
+                "uz": "itch.io’da o‘ynash",
+                "ru": "Играть на itch.io"
+              },
+              "url": "https://defenders-group8.itch.io/solar-strikers",
+              "kind": "live"
+            }
+          ],
+          "facts": [
+            {
+              "id": "proj-solar-strikers-f1",
+              "label": {
+                "en": "Genre",
+                "uz": "Janr",
+                "ru": "Жанр"
+              },
+              "value": {
+                "en": "Bullet hell · Top-down",
+                "uz": "Bullet hell · Yuqoridan ko‘rinish",
+                "ru": "Bullet hell · вид сверху"
+              }
+            },
+            {
+              "id": "proj-solar-strikers-f2",
+              "label": {
+                "en": "Platforms",
+                "uz": "Platformalar",
+                "ru": "Платформы"
+              },
+              "value": {
+                "en": "Windows · macOS · Linux"
+              }
+            }
+          ],
+          "image": "/uploads/solar-strikers.jpg",
+          "imageAlt": {
+            "en": "Solar Strikers gameplay screenshot",
+            "uz": "Solar Strikers o‘yinidan skrinshot",
+            "ru": "Скриншот игры Solar Strikers"
+          },
+          "featured": true,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-ministore",
+          "title": {
+            "en": "MiniStore"
+          },
+          "subtitle": {
+            "en": "Front-end project · 10-week roadmap",
+            "uz": "Frontend loyiha · 10 haftalik o‘quv reja",
+            "ru": "Фронтенд-проект · 10-недельная программа"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025",
+          "end": "",
+          "type": "Web",
+          "summary": {
+            "en": "A responsive mini-marketplace with a persistent cart, global search and a light/dark theme manager — built to practice advanced React Context patterns.",
+            "uz": "Doimiy savat, global qidiruv va yorug‘/qorong‘i mavzu boshqaruvchisiga ega moslashuvchan mini-marketpleys — React Context’ning ilg‘or usullarini mashq qilish uchun yaratilgan.",
+            "ru": "Адаптивный мини-маркетплейс с сохраняемой корзиной, глобальным поиском и переключателем светлой/тёмной темы — создан для отработки продвинутых паттернов React Context."
+          },
+          "body": {},
+          "bullets": [
+            {
+              "id": "proj-ministore-b1",
+              "text": {
+                "en": "Three cooperating contexts (theme, UI, cart) with localStorage persistence and full TypeScript types",
+                "uz": "Uchta o‘zaro bog‘langan kontekst (mavzu, UI, savat), localStorage’da saqlash va to‘liq TypeScript tiplari",
+                "ru": "Три взаимодействующих контекста (тема, UI, корзина) с сохранением в localStorage и полной типизацией TypeScript"
+              }
+            },
+            {
+              "id": "proj-ministore-b2",
+              "text": {
+                "en": "Theme detection from system preferences and a mobile-first layout with a hamburger menu",
+                "uz": "Tizim sozlamalariga ko‘ra mavzuni aniqlash va mobil qurilmalarga mo‘ljallangan maket",
+                "ru": "Определение темы по системным настройкам и mobile-first вёрстка с бургер-меню"
+              }
+            }
+          ],
+          "tags": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Context API"
+          ],
+          "links": [
+            {
+              "id": "proj-ministore-l1",
+              "label": {},
+              "url": "https://myministore.vercel.app/",
+              "kind": "live"
+            },
+            {
+              "id": "proj-ministore-l2",
+              "label": {},
+              "url": "https://github.com/Alan7w/MiniStore",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "proj-finpath",
+          "title": {
+            "en": "FinPath"
+          },
+          "subtitle": {
+            "en": "Accessible savings-app prototype",
+            "uz": "Qulay jamg‘arma ilovasi prototipi",
+            "ru": "Прототип доступного приложения для накоплений"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025-09",
+          "end": "2025-11",
+          "type": "Web",
+          "summary": {
+            "en": "A gamified financial-literacy and savings app prototype built with vanilla HTML, CSS and JavaScript — works offline, with no frameworks or build tools.",
+            "uz": "Vanilla HTML, CSS va JavaScript’da yaratilgan, moliyaviy savodxonlik va jamg‘arish uchun o‘yinlashtirilgan ilova prototipi — frameworklarsiz va oflayn ishlaydi.",
+            "ru": "Геймифицированный прототип приложения для финансовой грамотности и накоплений на чистых HTML, CSS и JavaScript — работает офлайн, без фреймворков и сборщиков."
+          },
+          "body": {},
+          "bullets": [
+            {
+              "id": "proj-finpath-b1",
+              "text": {
+                "en": "XP levels, badges, streaks and weekly challenges to keep savers engaged",
+                "uz": "Foydalanuvchilarni jalb qilish uchun XP darajalari, nishonlar, ketma-ketliklar va haftalik chaqiriqlar",
+                "ru": "Уровни опыта, значки, серии и еженедельные испытания для вовлечения пользователей"
+              }
+            },
+            {
+              "id": "proj-finpath-b2",
+              "text": {
+                "en": "Accessibility first: semantic landmarks, high-contrast mode, adjustable text size and full keyboard support",
+                "uz": "Avvalo qulaylik: semantik belgilash, yuqori kontrast rejimi, matn o‘lchamini sozlash va to‘liq klaviatura bilan boshqaruv",
+                "ru": "Доступность прежде всего: семантическая разметка, высококонтрастный режим, настраиваемый размер текста и полная поддержка клавиатуры"
+              }
+            },
+            {
+              "id": "proj-finpath-b3",
+              "text": {
+                "en": "Goal tracking with progress bars, plus JSON import/export of local data",
+                "uz": "Progress chiziqlari bilan maqsadlarni kuzatish hamda mahalliy ma’lumotlarni JSON orqali import/eksport qilish",
+                "ru": "Отслеживание целей с прогресс-барами и импорт/экспорт локальных данных в JSON"
+              }
+            }
+          ],
+          "tags": [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Accessibility",
+            "Gamification"
+          ],
+          "links": [
+            {
+              "id": "proj-finpath-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/finpath_userProfile",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "proj-movie",
+          "title": {
+            "en": "Movie Search & Theatre Booking",
+            "uz": "Film qidirish va kinoteatr bron qilish",
+            "ru": "Поиск фильмов и бронирование в кинотеатре"
+          },
+          "subtitle": {
+            "en": "Front-end project · 10-week roadmap",
+            "uz": "Frontend loyiha · 10 haftalik o‘quv reja",
+            "ru": "Фронтенд-проект · 10-недельная программа"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025",
+          "end": "",
+          "type": "Web",
+          "summary": {
+            "en": "Find movies with an advanced filter system powered by the TMDB API, then simulate booking seats just like at a real theater.",
+            "uz": "TMDB API asosidagi kengaytirilgan filtrlar yordamida filmlarni toping va xuddi haqiqiy kinoteatrdagidek joy band qilib ko‘ring.",
+            "ru": "Ищите фильмы с помощью расширенных фильтров на базе TMDB API и бронируйте места, как в настоящем кинотеатре."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "TypeScript",
+            "REST APIs",
+            "TMDB API"
+          ],
+          "links": [
+            {
+              "id": "proj-movie-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/Movie_Search_Booking_System",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-safari",
+          "title": {
+            "en": "Safari Marketplace"
+          },
+          "subtitle": {
+            "en": "Front-end project · 10-week roadmap",
+            "uz": "Frontend loyiha · 10 haftalik o‘quv reja",
+            "ru": "Фронтенд-проект · 10-недельная программа"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025",
+          "end": "",
+          "type": "Web",
+          "summary": {
+            "en": "A mock e-commerce site recreated from the Safari Marketplace design.",
+            "uz": "Safari Marketplace dizayni asosida qayta yaratilgan namunaviy internet-do‘kon.",
+            "ru": "Макет интернет-магазина, воссозданный по дизайну Safari Marketplace."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "TypeScript",
+            "React"
+          ],
+          "links": [
+            {
+              "id": "proj-safari-l1",
+              "label": {},
+              "url": "https://safaristore.vercel.app/",
+              "kind": "live"
+            },
+            {
+              "id": "proj-safari-l2",
+              "label": {},
+              "url": "https://github.com/Alan7w/SafariMarketplace_mock_site",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-techshop",
+          "title": {
+            "en": "Tech E-commerce Web App",
+            "uz": "Texnika internet-do‘koni veb-ilovasi",
+            "ru": "Интернет-магазин техники"
+          },
+          "subtitle": {
+            "en": "Team project · CSC 337 Web Programming",
+            "uz": "Jamoaviy loyiha · CSC 337 (Veb dasturlash)",
+            "ru": "Командный проект · CSC 337 (веб-программирование)"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025-04",
+          "end": "2025-05",
+          "type": "Coursework",
+          "summary": {
+            "en": "A full-stack store for tech products with user authentication, product browsing and a shopping cart, backed by a Node.js server with file-based JSON storage.",
+            "uz": "Foydalanuvchi autentifikatsiyasi, mahsulotlar katalogi va savatga ega texnika mahsulotlari uchun full-stack do‘kon; Node.js serveri va JSON fayllarda saqlash.",
+            "ru": "Full-stack магазин техники с аутентификацией пользователей, каталогом товаров и корзиной; сервер на Node.js с хранением данных в JSON-файлах."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "JavaScript",
+            "Node.js",
+            "HTML",
+            "CSS"
+          ],
+          "links": [
+            {
+              "id": "proj-techshop-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/337_Project",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-sim4",
+          "title": {
+            "en": "Sim4: C → Java Port",
+            "uz": "Sim4: C’dan Java’ga ko‘chirish",
+            "ru": "Sim4: перенос с C на Java"
+          },
+          "subtitle": {
+            "en": "Computer Organization course project",
+            "uz": "Kompyuter tuzilishi kursi loyihasi",
+            "ru": "Проект курса «Организация ЭВМ»"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025-02",
+          "end": "2025-03",
+          "type": "Systems",
+          "summary": {
+            "en": "Ported the Sim4 project from the Computer Organization course from C to Java.",
+            "uz": "Kompyuter tuzilishi kursidagi Sim4 loyihasini C tilidan Java tiliga ko‘chirdim.",
+            "ru": "Перенёс проект Sim4 из курса «Организация ЭВМ» с языка C на Java."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Java",
+            "C"
+          ],
+          "links": [
+            {
+              "id": "proj-sim4-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/Sim4_C_To_Java",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-blog-weather",
+          "title": {
+            "en": "Blog + Weather App",
+            "uz": "Blog + Ob-havo ilovasi",
+            "ru": "Блог + Погода"
+          },
+          "subtitle": {
+            "en": "Front-end project · 10-week roadmap",
+            "uz": "Frontend loyiha · 10 haftalik o‘quv reja",
+            "ru": "Фронтенд-проект · 10-недельная программа"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025",
+          "end": "",
+          "type": "Web",
+          "summary": {
+            "en": "Two apps in one: a blog that renders sample posts from JSONPlaceholder, and a weather lookup for any city or country powered by the OpenWeatherMap API.",
+            "uz": "Bitta saytda ikki ilova: JSONPlaceholder’dan namunaviy postlarni ko‘rsatuvchi blog va OpenWeatherMap API yordamida istalgan shahar yoki davlatning ob-havosini ko‘rsatuvchi ilova.",
+            "ru": "Два приложения в одном: блог с примерами постов из JSONPlaceholder и поиск погоды для любого города или страны через OpenWeatherMap API."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "REST APIs",
+            "OpenWeatherMap API"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "proj-roadmap",
+          "title": {
+            "en": "10-Week Front-End Roadmap",
+            "uz": "10 haftalik frontend o‘quv reja",
+            "ru": "10-недельная программа по фронтенду"
+          },
+          "subtitle": {
+            "en": "Self-directed study",
+            "uz": "Mustaqil ta’lim",
+            "ru": "Самостоятельное обучение"
+          },
+          "url": "",
+          "location": {},
+          "start": "2025-07",
+          "end": "2026-02",
+          "type": "Learning",
+          "summary": {
+            "en": "A self-directed front-end study plan. Safari Marketplace, Movie Search, MiniStore and Blog + Weather were all built along the way.",
+            "uz": "Mustaqil frontend o‘quv rejasi. Safari Marketplace, Movie Search, MiniStore va Blog + Weather loyihalari shu jarayonda yaratilgan.",
+            "ru": "Самостоятельная программа изучения фронтенда. Safari Marketplace, Movie Search, MiniStore и Blog + Weather созданы в её рамках."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "TypeScript",
+            "React"
+          ],
+          "links": [
+            {
+              "id": "proj-roadmap-l1",
+              "label": {},
+              "url": "https://github.com/Alan7w/TenWeekRoadmap",
+              "kind": "code"
+            }
+          ],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        }
+      ]
+    },
+    {
+      "id": "sec-experience",
+      "kind": "experience",
+      "title": {
+        "en": "Experience",
+        "uz": "Ish tajribasi",
+        "ru": "Опыт работы"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "exp-ugta",
+          "title": {
+            "en": "Senior Undergraduate Teaching Assistant",
+            "uz": "Katta o‘qituvchi assistenti (UGTA)",
+            "ru": "Старший ассистент преподавателя (UGTA)"
+          },
+          "subtitle": {
+            "en": "University of Arizona · Computer Organization",
+            "uz": "Arizona universiteti · Kompyuter tuzilishi kursi",
+            "ru": "Университет Аризоны · курс «Организация ЭВМ»"
+          },
+          "url": "https://www.cs.arizona.edu",
+          "location": {
+            "en": "Tucson, AZ, USA",
+            "uz": "Tuson, Arizona, AQSH",
+            "ru": "Тусон, Аризона, США"
+          },
+          "start": "2024-01",
+          "end": "2025-12",
+          "type": "Part-time",
+          "summary": {},
+          "body": {},
+          "bullets": [
+            {
+              "id": "exp-ugta-b1",
+              "text": {
+                "en": "Mentored newly hired UGTAs and helped with hiring and training for the course staff",
+                "uz": "Yangi ishga olingan assistentlarga ustozlik qildim, kurs xodimlarini tanlash va o‘qitishda yordam berdim",
+                "ru": "Наставлял новых ассистентов, помогал с наймом и обучением сотрудников курса"
+              }
+            },
+            {
+              "id": "exp-ugta-b2",
+              "text": {
+                "en": "Led office hours and in-class support; graded assignments and exams and helped develop course materials",
+                "uz": "Konsultatsiya soatlari va darsdagi yordamni olib bordim; topshiriq va imtihonlarni baholadim, o‘quv materiallarini ishlab chiqishda qatnashdim",
+                "ru": "Вёл консультации и поддержку на занятиях; проверял задания и экзамены, участвовал в разработке учебных материалов"
+              }
+            },
+            {
+              "id": "exp-ugta-b3",
+              "text": {
+                "en": "Coordinated with the teaching team on course logistics and academic outreach to students",
+                "uz": "Kursni tashkil etish va talabalar bilan ishlash bo‘yicha o‘qituvchilar jamoasi bilan hamkorlik qildim",
+                "ru": "Координировал с преподавательской командой организацию курса и работу со студентами"
+              }
+            }
+          ],
+          "tags": [
+            "C",
+            "MIPS Assembly",
+            "Computer Architecture",
+            "Mentoring",
+            "Teaching"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "exp-ula",
+          "title": {
+            "en": "Undergraduate Learning Assistant",
+            "uz": "O‘quv assistenti (ULA)",
+            "ru": "Учебный ассистент (ULA)"
+          },
+          "subtitle": {
+            "en": "University of Arizona · Calculus II",
+            "uz": "Arizona universiteti · Matematik analiz II (Calculus II)",
+            "ru": "Университет Аризоны · «Математический анализ II» (Calculus II)"
+          },
+          "url": "https://www.math.arizona.edu",
+          "location": {
+            "en": "Tucson, AZ, USA",
+            "uz": "Tuson, Arizona, AQSH",
+            "ru": "Тусон, Аризона, США"
+          },
+          "start": "2023-09",
+          "end": "2025-05",
+          "type": "Part-time",
+          "summary": {},
+          "body": {},
+          "bullets": [
+            {
+              "id": "exp-ula-b1",
+              "text": {
+                "en": "Supported in-class activities and tutored students individually and in small groups",
+                "uz": "Darsdagi mashg‘ulotlarda yordam berdim, talabalar bilan yakka tartibda va kichik guruhlarda shug‘ullandim",
+                "ru": "Помогал на занятиях, занимался со студентами индивидуально и в небольших группах"
+              }
+            },
+            {
+              "id": "exp-ula-b2",
+              "text": {
+                "en": "Proctored quizzes and exams",
+                "uz": "Nazorat ishlari va imtihonlarda kuzatuvchi bo‘ldim",
+                "ru": "Проводил контроль на тестах и экзаменах"
+              }
+            },
+            {
+              "id": "exp-ula-b3",
+              "text": {
+                "en": "Reached out to struggling students through tutoring sessions and email to help them stay on track",
+                "uz": "Qiynalayotgan talabalar bilan qo‘shimcha mashg‘ulotlar va email orqali bog‘lanib, ularning o‘zlashtirishini qo‘llab-quvvatladim",
+                "ru": "Связывался с отстающими студентами через дополнительные занятия и email, помогая им не отставать"
+              }
+            }
+          ],
+          "tags": [
+            "Calculus",
+            "Tutoring",
+            "Teaching"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "exp-itpark",
+          "title": {
+            "en": "Intern — Local2Global Project",
+            "uz": "Stajyor — Local2Global loyihasi",
+            "ru": "Стажёр — проект Local2Global"
+          },
+          "subtitle": {
+            "en": "IT Park · Ministry of Digital Technologies of Uzbekistan",
+            "uz": "IT Park · Raqamli texnologiyalar vazirligi",
+            "ru": "IT Park · Министерство цифровых технологий Узбекистана"
+          },
+          "url": "https://it-park.uz",
+          "location": {
+            "en": "Tashkent, Uzbekistan",
+            "uz": "Toshkent, O‘zbekiston",
+            "ru": "Ташкент, Узбекистан"
+          },
+          "start": "2025-06",
+          "end": "2025-07",
+          "type": "Internship",
+          "summary": {},
+          "body": {},
+          "bullets": [
+            {
+              "id": "exp-itpark-b1",
+              "text": {
+                "en": "Contributed to IT Park’s Local2Global project within the Local Company Expansion department",
+                "uz": "IT Park’ning Local2Global loyihasiga Mahalliy kompaniyalarni kengaytirish bo‘limi tarkibida hissa qo‘shdim",
+                "ru": "Участвовал в проекте Local2Global в отделе развития местных компаний IT Park"
+              }
+            },
+            {
+              "id": "exp-itpark-b2",
+              "text": {
+                "en": "Researched local companies across multiple industries and compiled structured data on each",
+                "uz": "Turli sohalardagi mahalliy kompaniyalarni o‘rganib, har biri haqida tizimli ma’lumotlar to‘pladim",
+                "ru": "Исследовал местные компании из разных отраслей и собирал о каждой структурированные данные"
+              }
+            },
+            {
+              "id": "exp-itpark-b3",
+              "text": {
+                "en": "Co-designed a website to showcase these companies",
+                "uz": "Ushbu kompaniyalarni namoyish etuvchi veb-saytni jamoa bilan birga loyihalashtirdim",
+                "ru": "Совместно с командой спроектировал веб-сайт для представления этих компаний"
+              }
+            }
+          ],
+          "tags": [
+            "Research",
+            "Data Collection",
+            "Web Design"
+          ],
+          "links": [],
+          "facts": [
+            {
+              "id": "exp-itpark-f1",
+              "label": {
+                "en": "Department",
+                "uz": "Bo‘lim",
+                "ru": "Отдел"
+              },
+              "value": {
+                "en": "Local Company Expansion",
+                "uz": "Mahalliy kompaniyalarni kengaytirish",
+                "ru": "Развитие местных компаний"
+              }
+            }
+          ],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "exp-reslife",
+          "title": {
+            "en": "Student Maintenance Assistant",
+            "uz": "Talaba texnik xizmat assistenti",
+            "ru": "Студент-ассистент службы технического обслуживания"
+          },
+          "subtitle": {
+            "en": "University of Arizona · Housing & Residential Life",
+            "uz": "Arizona universiteti · Housing & Residential Life (talabalar turar joylari)",
+            "ru": "Университет Аризоны · Housing & Residential Life (студенческие общежития)"
+          },
+          "url": "",
+          "location": {
+            "en": "Tucson, AZ, USA",
+            "uz": "Tuson, Arizona, AQSH",
+            "ru": "Тусон, Аризона, США"
+          },
+          "start": "2022-05",
+          "end": "2024-08",
+          "type": "Seasonal",
+          "summary": {
+            "en": "Summer seasons (May–August), 2022–2024.",
+            "uz": "Yozgi mavsumlar (may–avgust), 2022–2024.",
+            "ru": "Летние сезоны (май–август), 2022–2024."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        }
+      ]
+    },
+    {
+      "id": "sec-about",
+      "kind": "text",
+      "title": {
+        "en": "About",
+        "uz": "Men haqimda",
+        "ru": "Обо мне"
+      },
+      "intro": {
+        "en": "I grew up in the Namangan region of Uzbekistan and graduated from a specialized boarding school with a **gold medal** before being named an **El-Yurt Umidi Foundation scholar**. At the **University of Arizona** I studied computer science, minored in game design, and spent much of my time helping other students understand how computers really work.\n\nToday I build for the web and for play — from React storefronts to a 3D tower-defense game — and I care about clear code, accessible interfaces and good explanations.",
+        "uz": "Namangan viloyatida o‘sganman, ixtisoslashtirilgan maktab-internatni **oltin medal** bilan tamomlaganman va **“El-yurt umidi” jamg‘armasi** stipendiati bo‘lganman. **Arizona universitetida** kompyuter fanlarini o‘rgandim, qo‘shimcha ravishda o‘yin dizaynini tanladim va ko‘p vaqtimni boshqa talabalarga kompyuterlar aslida qanday ishlashini tushuntirishga sarfladim.\n\nBugun veb va o‘yinlar yarataman — React’dagi internet-do‘konlardan tortib 3D “tower defense” o‘yinigacha. Toza kod, qulay interfeyslar va tushunarli izohlarni qadrlayman.",
+        "ru": "Я вырос в Наманганской области Узбекистана, окончил специализированную школу-интернат с **золотой медалью** и стал стипендиатом **фонда «Эл-юрт умиди»**. В **Университете Аризоны** изучал компьютерные науки, дополнительно — геймдизайн, и много времени помогал другим студентам понять, как на самом деле работают компьютеры.\n\nСегодня я создаю веб-приложения и игры — от интернет-магазинов на React до 3D-игры в жанре tower defense — и ценю понятный код, доступные интерфейсы и хорошие объяснения."
+      },
+      "hidden": false,
+      "hideOnResume": true,
+      "layout": "auto",
+      "items": []
+    },
+    {
+      "id": "sec-education",
+      "kind": "education",
+      "title": {
+        "en": "Education",
+        "uz": "Ta’lim",
+        "ru": "Образование"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "edu-uarizona",
+          "title": {
+            "en": "B.A. in Computer Science",
+            "uz": "Kompyuter fanlari bakalavri (B.A.)",
+            "ru": "Бакалавр компьютерных наук (B.A.)"
+          },
+          "subtitle": {
+            "en": "The University of Arizona",
+            "uz": "Arizona universiteti",
+            "ru": "Университет Аризоны"
+          },
+          "url": "https://www.arizona.edu",
+          "location": {
+            "en": "Tucson, AZ, USA",
+            "uz": "Tuson, Arizona, AQSH",
+            "ru": "Тусон, Аризона, США"
+          },
+          "start": "2022-01",
+          "end": "2025-12",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [
+            "Data Structures & Algorithms",
+            "Systems Programming",
+            "Compilers",
+            "Object-Oriented Programming"
+          ],
+          "links": [],
+          "facts": [
+            {
+              "id": "edu-uarizona-f1",
+              "label": {
+                "en": "Minor",
+                "uz": "Qo‘shimcha mutaxassislik",
+                "ru": "Доп. специализация"
+              },
+              "value": {
+                "en": "Game Design & Development",
+                "uz": "O‘yin dizayni va ishlab chiqish",
+                "ru": "Геймдизайн и разработка игр"
+              }
+            },
+            {
+              "id": "edu-uarizona-f2",
+              "label": {
+                "en": "GPA"
+              },
+              "value": {
+                "en": "3.77 / 4.00"
+              }
+            },
+            {
+              "id": "edu-uarizona-f3",
+              "label": {
+                "en": "Relevant coursework",
+                "uz": "Asosiy fanlar",
+                "ru": "Профильные курсы"
+              },
+              "value": {
+                "en": "Systems Programming, Compilers, Data Structures & Algorithms, Object-Oriented Programming, Web Development, Game Development, Data Science",
+                "uz": "Tizimli dasturlash, Kompilyatorlar, Ma’lumotlar tuzilmalari va algoritmlar, Obyektga yo‘naltirilgan dasturlash, Veb-dasturlash, O‘yin ishlab chiqish, Ma’lumotlar fani",
+                "ru": "Системное программирование, компиляторы, структуры данных и алгоритмы, ООП, веб-разработка, разработка игр, наука о данных"
+              }
+            }
+          ],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "edu-school18",
+          "title": {
+            "en": "Secondary education, graduated with a Gold Medal",
+            "uz": "O‘rta ta’lim, “Oltin medal” bilan tamomlagan",
+            "ru": "Среднее образование, окончил с золотой медалью"
+          },
+          "subtitle": {
+            "en": "State Specialized Boarding School No. 18, Namangan",
+            "uz": "Namangan shahridagi 18-sonli Davlat ixtisoslashtirilgan maktab-internati",
+            "ru": "Государственная специализированная школа-интернат № 18, Наманган"
+          },
+          "url": "",
+          "location": {
+            "en": "Namangan, Uzbekistan",
+            "uz": "Namangan, O‘zbekiston",
+            "ru": "Наманган, Узбекистан"
+          },
+          "start": "2014",
+          "end": "2021",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        },
+        {
+          "id": "edu-school44",
+          "title": {
+            "en": "Primary & lower-secondary education",
+            "uz": "Boshlang‘ich va umumiy o‘rta ta’lim",
+            "ru": "Начальное и основное общее образование"
+          },
+          "subtitle": {
+            "en": "State Specialized Boarding School No. 44, Kosonsoy District",
+            "uz": "Kosonsoy tumanidagi 44-sonli Davlat ixtisoslashtirilgan maktab-internati",
+            "ru": "Государственная специализированная школа-интернат № 44, Касансайский район"
+          },
+          "url": "",
+          "location": {},
+          "start": "2010",
+          "end": "2014",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": true,
+          "hideOnResume": true
+        }
+      ]
+    },
+    {
+      "id": "sec-leadership",
+      "kind": "experience",
+      "title": {
+        "en": "Leadership & Community",
+        "uz": "Yetakchilik va jamoatchilik",
+        "ru": "Лидерство и сообщество"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "lead-hackaz-organizer",
+          "title": {
+            "en": "Student Organizer & Judge",
+            "uz": "Talaba tashkilotchi va hakam",
+            "ru": "Студент-организатор и судья"
+          },
+          "subtitle": {
+            "en": "HackAZ · University of Arizona",
+            "uz": "HackAZ · Arizona universiteti",
+            "ru": "HackAZ · Университет Аризоны"
+          },
+          "url": "",
+          "location": {
+            "en": "Tucson, AZ, USA",
+            "uz": "Tuson, Arizona, AQSH",
+            "ru": "Тусон, Аризона, США"
+          },
+          "start": "2024-08",
+          "end": "2025-04",
+          "type": "Leadership",
+          "summary": {},
+          "body": {},
+          "bullets": [
+            {
+              "id": "lead-hackaz-organizer-b1",
+              "text": {
+                "en": "Designed coding challenges for participants and judged hackathon projects",
+                "uz": "Ishtirokchilar uchun dasturlash topshiriqlarini tayyorladim va xakaton loyihalarini baholadim",
+                "ru": "Разрабатывал задания по программированию для участников и оценивал проекты хакатона"
+              }
+            },
+            {
+              "id": "lead-hackaz-organizer-b2",
+              "text": {
+                "en": "Worked with the organizing team on event logistics and technical setup",
+                "uz": "Tashkiliy jamoa bilan tadbir logistikasi va texnik ta’minoti ustida ishladim",
+                "ru": "Работал с командой организаторов над логистикой мероприятия и технической подготовкой"
+              }
+            }
+          ],
+          "tags": [
+            "Event Organization",
+            "Leadership"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "lead-hackaz-2023",
+          "title": {
+            "en": "Hackathon Participant — Project Manager",
+            "uz": "Xakaton ishtirokchisi — loyiha menejeri",
+            "ru": "Участник хакатона — менеджер проекта"
+          },
+          "subtitle": {
+            "en": "HackAZ 2023 · University of Arizona",
+            "uz": "HackAZ 2023 · Arizona universiteti",
+            "ru": "HackAZ 2023 · Университет Аризоны"
+          },
+          "url": "",
+          "location": {},
+          "start": "2023",
+          "end": "",
+          "type": "Hackathon",
+          "summary": {},
+          "body": {},
+          "bullets": [
+            {
+              "id": "lead-hackaz-2023-b1",
+              "text": {
+                "en": "Led the team as project manager during the hackathon",
+                "uz": "Xakaton davomida jamoaga loyiha menejeri sifatida rahbarlik qildim",
+                "ru": "Руководил командой в роли менеджера проекта во время хакатона"
+              }
+            }
+          ],
+          "tags": [
+            "Leadership",
+            "Project Management"
+          ],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": true
+        }
+      ]
+    },
+    {
+      "id": "sec-awards",
+      "kind": "awards",
+      "title": {
+        "en": "Honors & Certifications",
+        "uz": "Mukofotlar va sertifikatlar",
+        "ru": "Награды и сертификаты"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "aw-elyurt",
+          "title": {
+            "en": "El-Yurt Umidi Foundation Scholar",
+            "uz": "“El-yurt umidi” jamg‘armasi stipendiati",
+            "ru": "Стипендиат фонда «Эл-юрт умиди»"
+          },
+          "subtitle": {
+            "en": "El-Yurt Umidi Foundation, Uzbekistan",
+            "uz": "“El-yurt umidi” jamg‘armasi",
+            "ru": "Фонд «Эл-юрт умиди», Узбекистан"
+          },
+          "url": "",
+          "location": {},
+          "start": "2021",
+          "end": "",
+          "type": "Scholarship",
+          "summary": {
+            "en": "Uzbekistan’s national foundation for training specialists abroad.",
+            "uz": "Xorijda mutaxassislar tayyorlash bo‘yicha milliy jamg‘arma.",
+            "ru": "Национальный фонд подготовки специалистов за рубежом."
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": true,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "aw-merit",
+          "title": {
+            "en": "Global Merit & Academic Excellence Scholarship",
+            "uz": "Global Merit & Academic Excellence stipendiyasi",
+            "ru": "Стипендия Global Merit & Academic Excellence"
+          },
+          "subtitle": {
+            "en": "The University of Arizona",
+            "uz": "Arizona universiteti",
+            "ru": "Университет Аризоны"
+          },
+          "url": "",
+          "location": {},
+          "start": "2022",
+          "end": "2025",
+          "type": "Scholarship",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "aw-deans",
+          "title": {
+            "en": "Dean’s List with Distinction",
+            "uz": "Dean’s List with Distinction (dekan a’lochilar ro‘yxati)",
+            "ru": "Dean’s List with Distinction (список отличников декана)"
+          },
+          "subtitle": {
+            "en": "The University of Arizona",
+            "uz": "Arizona universiteti",
+            "ru": "Университет Аризоны"
+          },
+          "url": "",
+          "location": {},
+          "start": "2022",
+          "end": "2025",
+          "type": "Honor",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "aw-highest",
+          "title": {
+            "en": "Academic Year Highest Distinction Award",
+            "uz": "Academic Year Highest Distinction mukofoti",
+            "ru": "Награда Academic Year Highest Distinction"
+          },
+          "subtitle": {
+            "en": "The University of Arizona",
+            "uz": "Arizona universiteti",
+            "ru": "Университет Аризоны"
+          },
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "Award",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "aw-gold",
+          "title": {
+            "en": "Gold Medal for Academic Excellence",
+            "uz": "A’lo baholar uchun “Oltin medal”",
+            "ru": "Золотая медаль за отличную учёбу"
+          },
+          "subtitle": {
+            "en": "State Specialized Boarding School No. 18, Namangan",
+            "uz": "Namangan shahridagi 18-sonli Davlat ixtisoslashtirilgan maktab-internati",
+            "ru": "Государственная специализированная школа-интернат № 18, Наманган"
+          },
+          "url": "",
+          "location": {},
+          "start": "2021",
+          "end": "",
+          "type": "Award",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "aw-codepath",
+          "title": {
+            "en": "Intro to Software Engineering",
+            "uz": "Dasturiy injiniringga kirish (Intro to Software Engineering)",
+            "ru": "Введение в программную инженерию (Intro to Software Engineering)"
+          },
+          "subtitle": {
+            "en": "CodePath"
+          },
+          "url": "",
+          "location": {},
+          "start": "2022-06",
+          "end": "2022-08",
+          "type": "Course",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        }
+      ]
+    },
+    {
+      "id": "sec-languages",
+      "kind": "languages",
+      "title": {
+        "en": "Languages",
+        "uz": "Tillar",
+        "ru": "Языки"
+      },
+      "intro": {},
+      "hidden": false,
+      "hideOnResume": false,
+      "layout": "auto",
+      "items": [
+        {
+          "id": "lang-uz",
+          "title": {
+            "en": "Uzbek",
+            "uz": "O‘zbek tili",
+            "ru": "Узбекский"
+          },
+          "subtitle": {
+            "en": "Native",
+            "uz": "Ona tili",
+            "ru": "Родной"
+          },
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {},
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        },
+        {
+          "id": "lang-en",
+          "title": {
+            "en": "English",
+            "uz": "Ingliz tili",
+            "ru": "Английский"
+          },
+          "subtitle": {
+            "en": "Fluent",
+            "uz": "Erkin",
+            "ru": "Свободный"
+          },
+          "url": "",
+          "location": {},
+          "start": "",
+          "end": "",
+          "type": "",
+          "summary": {
+            "en": "Four years of university study in the U.S.",
+            "uz": "AQShda to‘rt yillik universitet ta’limi",
+            "ru": "Четыре года обучения в университете в США"
+          },
+          "body": {},
+          "bullets": [],
+          "tags": [],
+          "links": [],
+          "facts": [],
+          "image": "",
+          "imageAlt": {},
+          "featured": false,
+          "hidden": false,
+          "hideOnResume": false
+        }
+      ]
+    },
+    {
+      "id": "sec-journey",
+      "kind": "timeline",
+      "title": {
+        "en": "Journey",
+        "uz": "Hayot yo‘lim",
+        "ru": "Мой путь"
+      },
+      "intro": {
+        "en": "From a boarding school in Namangan to a CS degree in Arizona — the milestones, newest first.",
+        "uz": "Namangandagi maktab-internatdan Arizonadagi kompyuter fanlari diplomigacha — muhim bosqichlar, eng yangisidan boshlab.",
+        "ru": "От школы-интерната в Намангане до диплома по компьютерным наукам в Аризоне — ключевые этапы, начиная с последних."
+      },
+      "hidden": false,
+      "hideOnResume": true,
+      "layout": "auto",
+      "items": []
+    }
+  ],
+  "variants": [
+    {
+      "id": "v-gamedev",
+      "slug": "game-dev",
+      "label": "Game Developer",
+      "headline": {
+        "en": "Game Developer · Unity & C#",
+        "uz": "O‘yin dasturchisi · Unity va C#",
+        "ru": "Разработчик игр · Unity и C#"
+      },
+      "summary": {},
+      "hidden": [
+        "proj-safari",
+        "proj-sim4",
+        "proj-techshop",
+        "proj-blog-weather",
+        "proj-roadmap",
+        "exp-reslife"
+      ],
+      "emphasize": [
+        "Unity",
+        "C#",
+        "Blender",
+        "Game Design",
+        "Pixel Art"
+      ]
+    },
+    {
+      "id": "v-web",
+      "slug": "web",
+      "label": "Front-end / Web",
+      "headline": {
+        "en": "Front-End Developer · React & TypeScript",
+        "uz": "Frontend dasturchi · React va TypeScript",
+        "ru": "Фронтенд-разработчик · React и TypeScript"
+      },
+      "summary": {},
+      "hidden": [
+        "proj-sim4",
+        "exp-reslife"
+      ],
+      "emphasize": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Accessibility"
+      ]
+    },
+    {
+      "id": "v-teaching",
+      "slug": "teaching",
+      "label": "Teaching / EdTech",
+      "headline": {
+        "en": "CS Educator & Developer",
+        "uz": "Informatika o‘qituvchisi va dasturchi",
+        "ru": "Преподаватель информатики и разработчик"
+      },
+      "summary": {},
+      "hidden": [
+        "proj-safari",
+        "proj-blog-weather",
+        "exp-reslife"
+      ],
+      "emphasize": [
+        "Teaching",
+        "Mentoring",
+        "Tutoring",
+        "C",
+        "MIPS Assembly"
+      ]
+    }
+  ],
+  "theme": {
+    "preset": "editorial",
+    "accent": "#1f2937",
+    "mode": "dark",
+    "radius": "round",
+    "motion": true,
+    "secrets": true
+  },
+  "settings": {
+    "siteUrl": "",
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+      "uz",
+      "ru"
+    ],
+    "seo": {
+      "title": {
+        "en": "Asadkhon Rasulov — Software Engineer & Game Developer",
+        "uz": "Asadxon Rasulov — dasturiy ta’minot muhandisi va o‘yin dasturchisi",
+        "ru": "Асадхон Расулов — инженер-программист и разработчик игр"
+      },
+      "description": {
+        "en": "Portfolio and résumé of Asadkhon Rasulov: University of Arizona CS graduate building web apps and games.",
+        "uz": "Asadxon Rasulovning portfoliosi va rezyumesi: veb-ilovalar va o‘yinlar yaratuvchi Arizona universiteti bitiruvchisi.",
+        "ru": "Портфолио и резюме Асадхона Расулова: выпускник Университета Аризоны, создающий веб-приложения и игры."
+      }
+    },
+    "resume": {
+      "paper": "a4",
+      "showPhoto": false,
+      "showQr": true,
+      "showSummary": true,
+      "order": [
+        "sec-education",
+        "sec-experience",
+        "sec-projects",
+        "sec-skills",
+        "sec-leadership",
+        "sec-awards",
+        "sec-languages"
+      ]
+    },
+    "footer": {
+      "en": "Designed & built by Asadkhon Rasulov.",
+      "uz": "Asadxon Rasulov tomonidan ishlab chiqilgan.",
+      "ru": "Дизайн и разработка — Асадхон Расулов."
+    },
+    "showLastUpdated": true,
+    "sourceUrl": "https://github.com/Alan7w/webPortfolioV2"
+  }
+}
